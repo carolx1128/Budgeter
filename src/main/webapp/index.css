@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-ExtraBold.ttf');
+}
+
+body {
+	color: #7F7F7F;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	margin: 0% 0%;
+	font-weight: normal;
+}
+			
+.Budgeter {
+	color: red;
+	font-family: 'Raleway', cursive;
+	display: inline-block;
+	margin: 10px;
+	font-size: 30px;
+	text-decoration: none;
+}
+			
+.hyperlinks {
+	font-family: 'Raleway', cursive;
+	display: float;
+	float: right;
+	margin: 10px;
+}
+
+.greeting {
+	display: inline-block;
+	font-family: 'Raleway', cursive;
+}
+
+.bar-item {
+	padding:8px 16px;
+	float:left;
+	width:auto;
+	border:none;
+	display:block;
+	outline:0;
+	text-decoration: none;
+}
+
+hr {
+	width: 100%;
+	color: grey;
+}
+			
+.form
+{
+	display: inline-block;
+	margin-left: 10%;
+	margin-right: auto;
+	width: 50%;
+}
+			
+#searchby {
+	border-radius: 5px;
+	padding: 5px;
+}
+			
+#in {
+	border-radius: 5px;
+	padding: 5px;
+}
+			
+form button {
+	width: 5%;
+	padding: 5px;
+	background: rgb(187, 0, 0);
+	color: white;
+	font-size: 13px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+form button:hover {
+	background: rgb(130, 0, 0);
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a, .sidenav p {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding-left: 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
